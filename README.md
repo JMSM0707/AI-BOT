@@ -32,7 +32,6 @@ Python3.9 dan yuqori va PIP o'rnatilganligiga ishonch hosil qiling.
    ```bash
    python INSTALL.BAT yoki pip install -r requirements.txt #yoki pip3 install -r requirements.txt
    ```
-![image](https://github.com/user-attachments/assets/39bcdbfd-705e-45a3-bdb4-a88ef694bad9)
 
 ## Konfigurasi
 
