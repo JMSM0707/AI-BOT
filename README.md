@@ -48,35 +48,31 @@ Python3.9 dan yuqori va PIP o'rnatilganligiga ishonch hosil qiling.
   ```bash
     [
         {
-            "Browser_ID": "The first 8 digits of your browser_id 1",
-            "Token": "Your aigaea_bearer_token 1"
+            "Browser_ID": "Brauzer identifikatoringizning dastlabki 8 ta raqami 1",
+            "Token": "Sizning aigaea token belgisi 1"
         },
         {
-            "Browser_ID": "The first 8 digits of your browser_id 2",
-            "Token": "Your aigaea_bearer_token 2"
+            "Browser_ID": "Brauzer identifikatoringizning dastlabki 8 ta raqami 2",
+            "Token": "Sizning aigaea token belgisi 2"
         }
     ]
   ```
-- **manual_proxy.txt:** Anda akan menemukan file `manual_proxy.txt` di dalam direktori proyek. Pastikan `manual_proxy.txt` berisi data yang sesuai dengan format yang diharapkan oleh skrip. Berikut adalah contoh format file:
+- **manual_proxy.txt:** Siz faylni manual_proxy.txt loyiha katalogida topasiz. manual_proxy.txt unda skript formatiga mos keladigan ma'lumotlar mavjudligiga ishonch hosil qiling aks holda skript ishlamaydi. Mana fayl formatlariga misollar:
+
   ```bash
-    ip:port #http or socks5 - change schemes in line 113
-    http://ip:port
-    socks4://ip:port
-    socks5://ip:port
-    http://ip:port@user:pass #idk its work or not, cuase i don't have authentic proxy
-    socks4://ip:port@user:pass #idk its work or not, cuase i don't have authentic proxy
-    socks5://ip:port@user:pass #idk its work or not, cuase i don't have authentic proxy
+  http://user:pass@ip:port
+  socks4://user:pass@ip:port
+  socks5://user:pass@ip:port
   ```
 
-## Jalankan
+## Ishga tushurish
 
-```bash
-python bot.py #or python3 bot.py
-```
+ ```bash
+python bot.py #yoki python3 bot.py
+ ```
 
-## Penutup
+## Yopish
 
-Terima kasih telah mengunjungi repository ini, jangan lupa untuk memberikan kontribusi berupa follow dan stars.
-Jika Anda memiliki pertanyaan, menemukan masalah, atau memiliki saran untuk perbaikan, jangan ragu untuk menghubungi saya atau membuka *issue* di repositori GitHub ini.
+Ushbu omborga tashrif buyurganingiz uchun tashakkur, kuzatishlar va yulduzchalar shaklida hissa qo'shishni unutmang. Savollaringiz bo'lsa, muammolarga duch kelsangiz yoki yaxshilash bo'yicha takliflaringiz bo'lsa, men bilan bog'laning yoki ushbu GitHub omborida muammoni oching.
 
-**vonssy**
+**JMSM0707**
